@@ -1,2 +1,1 @@
-# Bootcamp
-Projects and exercises for bootcamp
+Exercise to correct code indentation

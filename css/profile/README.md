@@ -1,3 +1,3 @@
 Assignment to duplicate an image of a website profiile page
 
-https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/profile.png 
+![image](https://user-images.githubusercontent.com/70794561/133413750-66c84688-38b9-486d-9041-430fc9344daa.png)

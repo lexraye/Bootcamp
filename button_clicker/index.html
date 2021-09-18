@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dojonary</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <h1 class="homepage">Dojonary</h1>
+      <input type="text" placeholder="Search" class="search">
+      <button class="login" onclick="logOut(this)">Login</button>  
+    </div>
+  </header>
+  <main>
+    <!--This column will contain dictionary entries-->
+    <div class="col-1">
+      <!--First Entry-->
+      <div class="container">
+        <!--Word-->
+        <div class="word">
+          <h1>ninja</h1>
+          <h3 class="type">noun</h3>
+          <p>Plural: <span class="plural">ninjas</span></p>
+          <button class="likes" onclick="likeButton(this)">13 likes</button>
+        </div>
+        <!--Definition-->
+        <div>
+          <h3 class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h3>
+        </div>
+      </div>
+      <!--Second Entry-->
+      <div class="container">
+        <!--Word-->
+        <div class="word">
+          <h1>ninja</h1>
+          <h3 class="type">noun</h3>
+          <p>Plural: <span class="plural">ninjas</span></p>
+          <button class="likes" onclick="likeButton(this)">37 likes</button>
+        </div>
+        <!--Definition-->
+        <div>
+          <h3 class="definition">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h3>
+        </div>
+      </div>
+    </div>
+    <!--This column will contain a box to add a definition-->
+    <div class="col-2"></div>
+      <div class="dojo">
+        <h2>Dojonary is defined by YOU</h2>
+        <button class="add" onclick="hide(this)">Add Definition</button>
+      </div>
+  </main>
+  <footer></footer>
+</body>
+</html>

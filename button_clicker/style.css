@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+}
+
+body {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+a {
+  color: #236fd1;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.type {
+  font-style: italic;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 15px 25px;
+}
+
+.search {
+  border: 2px solid black;
+  padding: 5px;
+  width: 300px;
+}
+
+.login {
+  background-color: #236fd1;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+  padding: 3px 10px;
+}
+
+.col-1 {
+  margin-right: 20px;
+}
+
+.container,
+.dojo {
+  border: 2px solid black;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word {
+  width: 150px;
+}
+
+.plural {
+  font-style: italic;
+}
+
+.likes {
+  background-color: rgb(247, 202, 88);
+  font-weight: bolder;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+  padding: 0px 7px;
+  margin-top: 20px;
+}
+
+.definition {
+  padding: 30px;
+  width: 275px;
+}
+
+.dojo {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.add {
+  background-color: rgb(78, 190, 78);
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px black;
+  font-weight: bolder;
+  margin-top: 20px;
+  padding: 3px 15px;
+}
